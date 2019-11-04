@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  color: darkslateblue
+}
+
+body{
+  background: url('img/dandelion.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.errorMessage{
+  color:white;
+  font-weight: bold;
+  padding: 2px;
+}
+button[type="submit"]:disabled{
+  background: red;
+  border-color: white;
+  cursor: default;  
+}
+button{
+  cursor:pointer;
+  padding: 10px;
+}
+
+
